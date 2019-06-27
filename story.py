@@ -29,7 +29,7 @@ while keepplaying == "Yes" or keepplaying == "yes":
         print("Please select one of the valid options: 1 or 2.")
         keepplaying = input("would you like to try again? Type yes or no.")
         if keepplaying == "no":
-
+            quit()
 keepplaying = "yes"
 while keepplaying == "Yes" or keepplaying == "yes":
     print(" ")
